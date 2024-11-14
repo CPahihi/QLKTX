@@ -2,6 +2,7 @@
 
 ## Mô tả
 Dự án Quản lý Ký Túc Xá (QLKTX) là một hệ thống giúp quản lý thông tin sinh viên, phòng ký túc xá, và các dịch vụ liên quan. Hệ thống cho phép quản lý đăng ký phòng, và các chức năng cơ bản khác để hỗ trợ công tác quản lý ký túc xá.
+Có thể xem trước trong file 63CNTT3_QLKTX.docx
 
 ## Các tính năng chính
 - Quản lý thông tin sinh viên
