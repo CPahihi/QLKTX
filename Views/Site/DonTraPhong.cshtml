@@ -1,0 +1,41 @@
+﻿@model QLKTX.Common.DonTraPhongViewModel
+
+@{
+    ViewBag.Title = "Đơn Trả Phòng";
+}
+
+<h2>Đơn Trả Phòng</h2>
+
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-md-2">Họ và tên:</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.HoTen</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Ngày sinh:</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.NgaySinh.ToString("dd/MM/yyyy")</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">MSSV:</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.MSSV</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Phòng:</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.Phong</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Tòa nhà:</label>
+        <div class="col-md-10">
+            <p class="form-control-static">@Model.ToaNha</p>
+        </div>
+    </div>
+</div>
+<a href="#">In đơn</a>
